@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DataDrivenFramework.TestNGDataFrameworkExcelData">
+      <class name="DataDrivenFramework.DataDrivenPractice">
         <methods>
-          <include name="OurWebSiteSignUP"/>
+          <include name="WebDataWriting"/>
           <include name="CloseBrowser"/>
-          <include name="openBrowser"/>
+          <include name="OpenBrowsre"/>
         </methods>
-      </class> <!-- DataDrivenFramework.TestNGDataFrameworkExcelData -->
+      </class> <!-- DataDrivenFramework.DataDrivenPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
